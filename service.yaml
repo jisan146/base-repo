@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: my-html-app-service 
+  labels:
+    app: my-html-app 
+spec:
+  selector:
+    app: my-html-app 
+  ports:
+    - protocol: TCP
+      port: 80 
+      targetPort: 80 
+  type: ClusterIP 
