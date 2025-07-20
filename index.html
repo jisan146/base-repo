@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Contact Information</title>
+    <!-- Tailwind CSS CDN for basic styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Custom styles for the Inter font and centering */
+        body {
+            font-family: "Inter", sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f0f4f8; /* Light gray background */
+            margin: 0;
+        }
+        .container {
+            background-color: #ffffff;
+            padding: 2.5rem; /* Increased padding */
+            border-radius: 1.5rem; /* More rounded corners */
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1); /* Softer shadow */
+            text-align: center;
+            max-width: 90%; /* Responsive width */
+            width: 400px; /* Max width for larger screens */
+        }
+        h1 {
+            color: #2d3748; /* Darker text for heading */
+            margin-bottom: 1.5rem; /* More space below heading */
+            font-size: 2.25rem; /* Larger heading */
+            font-weight: 700; /* Bold heading */
+        }
+        p {
+            color: #4a5568; /* Slightly lighter text for paragraphs */
+            font-size: 1.25rem; /* Larger paragraph text */
+            margin-bottom: 1rem; /* Space between paragraphs */
+        }
+        .email-link {
+            color: #3182ce; /* Blue for the email link */
+            text-decoration: none; /* No underline by default */
+            font-weight: 600; /* Semi-bold */
+        }
+        .email-link:hover {
+            text-decoration: underline; /* Underline on hover */
+            color: #2c5282; /* Darker blue on hover */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Details</h1>
+        <p><strong>Name:</strong> Tareq Rahman Jisan</p>
+        <p><strong>Email:</strong> <a href="mailto:tareq-04devops@dipti.com.bd" class="email-link">tareq-04devops@dipti.com.bd</a></p>
+    </div>
+</body>
+</html>
